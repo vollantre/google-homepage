@@ -1,0 +1,133 @@
+body{
+    font-family: arial,sans-serif;
+}
+/* Top Navigation */
+.topnav{
+    padding-top: 1px;
+}
+.topnav a{
+    float: right;
+    padding-right: 18px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    vertical-align: baseline;
+    font-family: arial, 'sans-serif';
+}
+.topnav a:hover{
+    text-decoration: underline;
+}
+.topnav ul li{
+    display: inline;
+    direction: rtl;
+    padding-right: 5px;
+}
+.topnav button{
+    padding: 6px 10px;
+    border: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-top: -5px;
+    border: 1px solid #4285f4;
+}
+/* Google icon image */
+.img-size{
+    height: 15px;
+    width: 15px;
+}
+.icon img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 141px;
+  }
+/* Search box */
+.search input{
+    width: 574px;
+    height: 40px;
+    position: relative;
+    top: 168px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border: none;
+}
+.search{
+    position:relative;
+}
+.input-img {
+    position:absolute;
+    top: 179px;
+    right: 368px;
+    width:14px;
+    height:20px;
+}
+/* Search Buttons */
+.search-button {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 199px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.search-button button{
+    border: none;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #757575;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+    width: 150px;
+    height: 35px;
+}
+.search-button .button-google{
+    width: 135px;
+}
+.search-button button{
+    margin-right: 7px;
+}
+.search-button button:last-child{
+    margin-right: 0px;
+}
+/* Footer */
+.footer{
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #0000008a;
+    background: #f2f2f2;
+    padding: 15px 20px;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #e4e4e4;
+}
+.first-half,
+.second-half{
+    display: inline;
+}
+.footer div a{
+    text-decoration: none;
+    color: #5f6368;
+    padding-right: 12px;
+    font-size: 13px;
+}
+.second-half{
+    float: right;
+    margin-right: 50px;
+}
+.country{
+    padding-bottom: 17px;
+}
+.footer .country a{
+    font-size: 15px;
+}
